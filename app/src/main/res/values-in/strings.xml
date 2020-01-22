@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Catalogue 2</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ubah Bahasa</string>
+    <string name="movie_catalogue">Movie Catalogue</string>
+    <string name="title_activity_detail">Detail Film</string>
+
+    <string name="title_movie">Film</string>
+    <string name="title_tv">Serial TV</string>
+    <string name="menu_movie_popular">Film Populer</string>
+    <string name="menu_movie_nowplaying">Film Sedang Tayang</string>
+    <string name="menu_tv_popular">Serial TV Populer</string>
+    <string name="menu_tv_ontv">Serial TV Sedang Tanyang</string>
+
+    <string name="poster">Poster</string>
+    <string name="years_movie">Years Movie</string>
+    <string name="genre">Jenis</string>
+    <string name="years">Tahun</string>
+    <string name="overview">Ringkasan</string>
+</resources>

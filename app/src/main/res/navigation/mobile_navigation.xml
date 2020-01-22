@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_movie_popular">
+
+    <fragment
+        android:id="@+id/nav_movie_popular"
+        android:name="com.example.rkhaidir.submission_dua_made.view.fragment.MoviePopularFragment"
+        android:label="@string/menu_movie_popular"
+        tools:layout="@layout/fragment_movie_popular"/>
+
+    <fragment
+        android:id="@+id/nav_movie_nowplaying"
+        android:name="com.example.rkhaidir.submission_dua_made.view.fragment.MoviePlayingFragment"
+        android:label="@string/menu_movie_nowplaying"
+        tools:layout="@layout/fragment_movie_playing"/>
+
+    <fragment
+        android:id="@+id/nav_tv_popular"
+        android:name="com.example.rkhaidir.submission_dua_made.view.fragment.TvPopularFragment"
+        android:label="@string/menu_tv_popular"
+        tools:layout="@layout/fragment_tv_popular"/>
+
+    <fragment
+        android:id="@+id/nav_tv_ontv"
+        android:name="com.example.rkhaidir.submission_dua_made.view.fragment.TvOnFragment"
+        android:label="@string/menu_tv_ontv"
+        tools:layout="@layout/fragment_tv_on"/>
+</navigation>

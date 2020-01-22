@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movie Catalogue 2</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Change Language</string>
+    <string name="movie_catalogue">Movie Catalogue</string>
+    <string name="title_activity_detail">Movie Detail</string>
+
+    <string name="title_movie">Movies</string>
+    <string name="title_tv">TV Shows</string>
+    <string name="menu_movie_popular">Movies Popular</string>
+    <string name="menu_movie_nowplaying">Movies Now Playing</string>
+    <string name="menu_tv_popular">TV Shows Popular</string>
+    <string name="menu_tv_ontv">TV Shows On TV</string>
+
+    <string name="poster">Poster</string>
+    <string name="years_movie">Years Movie</string>
+    <string name="genre">Genre</string>
+    <string name="years">Years</string>
+    <string name="overview">Overview</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/title_movie">
+        <menu>
+            <item
+                android:id="@+id/nav_movie_popular"
+                android:icon="@drawable/ic_movie_popular"
+                android:title="@string/menu_movie_popular" />
+            <item
+                android:id="@+id/nav_movie_nowplaying"
+                android:icon="@drawable/ic_movie_black"
+                android:title="@string/menu_movie_nowplaying" />
+        </menu>
+    </item>
+
+    <item android:title="@string/title_tv">
+        <menu>
+            <item
+                android:id="@+id/nav_tv_popular"
+                android:icon="@drawable/ic_tv_black"
+                android:title="@string/menu_tv_popular" />
+            <item
+                android:id="@+id/nav_tv_ontv"
+                android:icon="@drawable/ic_live_tv"
+                android:title="@string/menu_tv_ontv" />
+        </menu>
+    </item>
+
+</menu>
